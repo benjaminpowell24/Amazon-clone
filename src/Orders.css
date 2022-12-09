@@ -1,0 +1,7 @@
+.orders{
+    padding: 2rem 8rem;
+}
+
+.orders > h1 {
+    margin: 3rem 0rem;
+}

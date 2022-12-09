@@ -1,0 +1,11 @@
+.home{
+    max-width: 2000px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.home__img{
+    width: 100%;
+    /*mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
+    z-index: -1;
+}
+

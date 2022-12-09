@@ -1,0 +1,77 @@
+.payment{
+ margin: 1rem;
+}
+
+.payment__container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.payment__container > h2{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__section{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom:1px solid lightgray;
+}
+
+.payment__title{
+    flex: 0.3;
+}
+
+.payment__title1{
+    flex: 0.4;
+}
+
+.payment__address{
+    flex: 0.4;
+    text-align: center;
+}
+
+.payment__changeAddress{
+    flex: 0.3;
+    text-align: center;
+}
+
+.payment__changeAddress > button{
+    width: 70%;
+    padding: 0.4rem;
+    border: 0.1rem solid;
+    border-radius: 0.2rem;
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.payment__items{
+    flex: 0.8;
+}
+
+.payment__details{
+    flex: 0.6;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.payment__card{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.payment__confirmBtn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 8rem;
+    padding: 0.4rem;
+    background: #f0c14b;
+    border-radius: 0.2rem;
+    border: 0.1rem solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}

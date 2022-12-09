@@ -1,0 +1,34 @@
+.order{
+    padding: 2rem;
+    margin: 1rem 0rem;
+    border: 0.1rem solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.order__title{
+    padding-bottom: 1rem;
+}
+
+
+
+.order__subtitle{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+}
+
+.order__subtitle>p{
+    margin-left: 1rem;
+}
+
+.order__id{
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+}
+
+.order__total{
+    font-weight: 400;
+    text-align: right;
+}
